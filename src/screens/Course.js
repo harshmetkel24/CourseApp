@@ -30,7 +30,7 @@ const Course = ({ navigation }) => {
             <View>
               <TouchableOpacity
                 style={styles.btnStyle}
-                onPress={() => navigation.navigate("CourseDetails")}
+                onPress={() => navigation.navigate("Course Details", { item })}
               >
                 <Text style={styles.btnText}>Course Details</Text>
               </TouchableOpacity>

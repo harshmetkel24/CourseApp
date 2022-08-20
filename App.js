@@ -17,6 +17,7 @@ import About from "./src/screens/About";
 import Contact from "./src/screens/Contact";
 import Course from "./src/screens/Course";
 import UserData from "./src/screens/UserData";
+import CourseDetails from "./src/screens/CourseDetails";
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -44,6 +45,7 @@ export default function App() {
         />
         <Stack.Screen name="About" component={About} />
         <Stack.Screen name="Student Details" component={UserData} />
+        <Stack.Screen name="Course Details" component={CourseDetails} />
         <Stack.Screen name="Courses" component={Course} />
         <Stack.Screen name="Contact Us" component={Contact} />
       </Stack.Navigator>
